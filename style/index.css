@@ -1,0 +1,30 @@
+.apoio {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    /* background: white; */
+    /* border-radius: 8px; */
+    /* box-shadow: 0 4px 10px rgba(0,0,0,0.1); */
+}
+
+.track {
+    display: flex;
+    gap: 80px;
+    animation: rolar 20s linear infinite;
+}
+
+.slide img {
+    height: 160px;
+    width: auto;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.slide img:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+@keyframes rolar {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
