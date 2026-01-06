@@ -1,10 +1,59 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+/* ------------------------menu------------------------ */
+nav {
+    display: flex;
+    gap: 56px;
+    background-color: black;
+    height: 80px;
+    align-items: center;
+}
+
+nav a {
+    font-weight: 200;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: red;
+    transform: scale(1.2);
+}
+
+nav img {
+    height: 48px;
+    margin-left: 3%;
+}
+
+/* ------------------------apoios------------------------ */
+.patrocinios {
+    margin-top: 3%;
+}
+
+.patrocinios h2{
+    margin-left: 5%;
+    font-weight: 600;
+    color: #424141;
+}
+
 .apoio {
     display: flex;
-    width: 100%;
+    width: 90%;
+    margin-top: 1%;
+    margin-left: 5%;
+    height: 180px;
     overflow: hidden;
-    /* background: white; */
-    /* border-radius: 8px; */
-    /* box-shadow: 0 4px 10px rgba(0,0,0,0.1); */
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    align-items: center;
 }
 
 .track {
@@ -27,4 +76,100 @@
 @keyframes rolar {
     from { transform: translateX(0); }
     to { transform: translateX(-50%); }
+}
+
+/* ------------------------campeonatos em andamento------------------------ */
+main {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#nome_campeonato {
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 8px;
+    background-color: rgb(181, 0, 0);
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+#nome_campeonato h1{
+    color: white;
+}
+
+main h3 {
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+    font-weight: 900;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: 300;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* ------------------------Jogos da semana e Resultados------------------------ */
+.jogos_semana, .resultados {
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 90%;
+}
+
+.jogos_semana h3, .resultados h3 {
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.jogos_semana h3, .resultados h3 {
+    margin-bottom: 1%;
+}
+
+.semana {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.jogos_semana p, .resultados p {
+    font-size: 18px;
+    padding-top: 5%;
+}
+
+.segunda, .terca, .quarta, .quinta, .sexta {
+    text-align: center;
+}
+
+/* ------------------------footer------------------------ */
+footer {
+    display: flex;
+    height: 80px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
 }
