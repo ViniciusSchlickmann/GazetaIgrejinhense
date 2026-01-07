@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,15 +11,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
 
     <nav>
-        <img src="assets/gazeta.png" alt="logomarca Gazeta Igrejinhense">
-        <a href="index.html"><h3>Campeonatos em andamento</h3></a>
-        <a href="futsal.html"><h3>Futsal</h3></a>
-        <a href="society.html"><h3>Society</h3></a>
-        <a href="beach.html"><h3>Beach Soccer</h3></a>
-        <a href="campo.html"><h3>Campo</h3></a>
+        <div class="nav-logo">
+            <img src="assets/gazeta.png" alt="logomarca Gazeta Igrejinhense">
+        </div>
+
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="nav-links" id="nav-links">
+            <a href="index.html">
+                <h3>Campeonatos</h3>
+            </a>
+            <a href="futsal.html">
+                <h3>Futsal</h3>
+            </a>
+            <a href="society.html">
+                <h3>Society</h3>
+            </a>
+            <a href="beach.html">
+                <h3>Beach Soccer</h3>
+            </a>
+            <a href="campo.html">
+                <h3>Campo</h3>
+            </a>
+        </div>
     </nav>
 
     <section class="patrocinios">
@@ -44,69 +67,75 @@
     <main>
         <!-- Aberto de Verão de Igrejinha -->
         <div id="nome_campeonato">
-            <h1>4º Aberto de Verão de Igrejinha</h1>    
+            <h1>4º Aberto de Verão de Igrejinha</h1>
         </div>
 
-        <table class="chaveA">
-            <h3>Chave A</h3>
-            <tr>
-                <th class="titulo">Time</th>
-                <th class="titulo">Pontos</th>
-                <th class="titulo">Jogos</th>
-                <th class="titulo">Vitórias</th>
-                <th class="titulo">Gols Pró</th>
-                <th class="titulo">Gols Contra</th>
-                <th class="titulo">Saldo de gols</th>
-            </tr>
-            <tr>
-                <th>Gazeta Igrejinhense</th>
-                <th>4</th>
-                <th>2</th>
-                <th>1</th>
-                <th>7</th>
-                <th>4</th>
-                <th>3</th>
-            </tr>
-            <tr>
-                <th>Gazeta Igrejinhense</th>
-                <th>4</th>
-                <th>2</th>
-                <th>1</th>
-                <th>7</th>
-                <th>4</th>
-                <th>3</th>
-            </tr>
-        </table>
-        <table class="chaveB">
-            <h3>Chave B</h3>
-            <tr>
-                <th class="titulo">Time</th>
-                <th class="titulo">Pontos</th>
-                <th class="titulo">Jogos</th>
-                <th class="titulo">Vitórias</th>
-                <th class="titulo">Gols Pró</th>
-                <th class="titulo">Gols Contra</th>
-                <th class="titulo">Saldo de gols</th>
-            </tr>
-            <tr>
-                <th>Gazeta Igrejinhense</th>
-                <th>4</th>
-                <th>2</th>
-                <th>1</th>
-                <th>7</th>
-                <th>4</th>
-                <th>3</th>
-            </tr>
-            <tr>
-                <th>Gazeta Igrejinhense</th>
-                <th>4</th>
-                <th>2</th>
-                <th>1</th>
-                <th>7</th>
-                <th>4</th>
-                <th>3</th>
-            </tr>
-        </table>
+        <h3>Chave A</h3>
+        <div class="tabela-container">
+            <table class="chaveA">
+                <tr>
+                    <th class="titulo">Time</th>
+                    <th class="titulo">Pontos</th>
+                    <th class="titulo">Jogos</th>
+                    <th class="titulo">Vitórias</th>
+                    <th class="titulo">Gols Pró</th>
+                    <th class="titulo">Gols Contra</th>
+                    <th class="titulo">Saldo de gols</th>
+                </tr>
+                <tr>
+                    <th>Gazeta Igrejinhense</th>
+                    <th>4</th>
+                    <th>2</th>
+                    <th>1</th>
+                    <th>7</th>
+                    <th>4</th>
+                    <th>3</th>
+                </tr>
+                <tr>
+                    <th>Gazeta Igrejinhense</th>
+                    <th>4</th>
+                    <th>2</th>
+                    <th>1</th>
+                    <th>7</th>
+                    <th>4</th>
+                    <th>3</th>
+                </tr>
+            </table>
+        </div>
+
+        <h3>Chave B</h3>
+        <div class="tabela-container">
+            <table class="chaveB">
+                <tr>
+                    <th class="titulo">Time</th>
+                    <th class="titulo">Pontos</th>
+                    <th class="titulo">Jogos</th>
+                    <th class="titulo">Vitórias</th>
+                    <th class="titulo">Gols Pró</th>
+                    <th class="titulo">Gols Contra</th>
+                    <th class="titulo">Saldo de gols</th>
+                </tr>
+                <tr>
+                    <th>Gazeta Igrejinhense</th>
+                    <th>4</th>
+                    <th>2</th>
+                    <th>1</th>
+                    <th>7</th>
+                    <th>4</th>
+                    <th>3</th>
+                </tr>
+                <tr>
+                    <th>Gazeta Igrejinhense</th>
+                    <th>4</th>
+                    <th>2</th>
+                    <th>1</th>
+                    <th>7</th>
+                    <th>4</th>
+                    <th>3</th>
+                </tr>
+            </table>
+        </div>
+
         <table class="goleadores">
             <h3>Goleadores</h3>
             <tr>
@@ -121,10 +150,10 @@
             </tr>
             <tr>
                 <th>Zezinho</th>
-                <th>Gazeta</th>
+                <th>Gazeta da Vila</th>
                 <th>18</th>
             </tr>
-             <tr>
+            <tr>
                 <th>Luizinho</th>
                 <th>Gazeta</th>
                 <th>11</th>
@@ -207,6 +236,20 @@
     <footer>
         <p>© 2026 Todos os direitos reservados. Gazeta Igrejinhense</p>
     </footer>
-    
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuToggle = document.getElementById('menu-toggle');
+            const navLinks = document.getElementById('nav-links');
+
+            if (menuToggle && navLinks) {
+                menuToggle.addEventListener('click', () => {
+                    menuToggle.classList.toggle('active');
+                    navLinks.classList.toggle('active');
+                });
+            }
+        });
+    </script>
 </body>
+
 </html>
