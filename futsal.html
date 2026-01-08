@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gazeta Igrejinhense</title>
+
+    <link rel="stylesheet" href="style/futsal.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-logo">
+            <img src="assets/gazeta.png" alt="logomarca Gazeta Igrejinhense">
+        </div>
+
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="nav-links" id="nav-links">
+            <a href="index.html">
+                <h3>Campeonatos</h3>
+            </a>
+            <a href="futsal.html">
+                <h3>Futsal</h3>
+            </a>
+            <a href="society.html">
+                <h3>Society</h3>
+            </a>
+            <a href="beach.html">
+                <h3>Beach Soccer</h3>
+            </a>
+            <a href="campo.html">
+                <h3>Campo</h3>
+            </a>
+        </div>
+    </nav>
+
+    <section class="patrocinios">
+        <h2>Essas empresas apoiam o esporte local!</h2>
+        <div class="apoio">
+            <div class="track">
+                <div class="slide"><img src="assets/agm.png" alt="Apoio 1"></div>
+                <div class="slide"><img src="assets/bilhar_grenal.png" alt="Apoio 2"></div>
+                <div class="slide"><img src="assets/klein.png" alt="Apoio 3"></div>
+                <div class="slide"><img src="assets/light.png" alt="Apoio 4"></div>
+                <div class="slide"><img src="assets/na_taca.png" alt="Apoio 5"></div>
+
+                <!-- Duplicados para criar efeito de loop infinito -->
+                <div class="slide"><img src="assets/agm.png" alt="Apoio 1"></div>
+                <div class="slide"><img src="assets/bilhar_grenal.png" alt="Apoio 2"></div>
+                <div class="slide"><img src="assets/klein.png" alt="Apoio 3"></div>
+                <div class="slide"><img src="assets/light.png" alt="Apoio 4"></div>
+                <div class="slide"><img src="assets/na_taca.png" alt="Apoio 5"></div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section class="2024">
+            <h1>Campeonato Municipal 2024</h1>
+
+            <h2 class="ouro">Série Ouro</h2>
+            <div class="campeoes">
+                <div>
+                    <img src="assets/agm.png" alt="">
+                    <h3>Campeão: Time tal</h3>
+                </div>
+                <div>
+                    <img src="assets/bilhar_grenal.png" alt="">
+                    <h3>Vice Campeão: Time tal</h3>
+                </div>
+                <div>
+                    <img src="assets/light.png" alt="">
+                    <h3>Goleador: Fulano com 7 gols</h3>
+                </div>
+            </div>
+
+            <h2 class="prata">Série Prata</h2>
+            <div class="campeoes">
+                <div>
+                    <img src="assets/agm.png" alt="">
+                    <h3>Campeão: Time tal</h3>
+                </div>
+                <div>
+                    <img src="assets/bilhar_grenal.png" alt="">
+                    <h3>Vice Campeão: Time tal</h3>
+                </div>
+                <div>
+                    <img src="assets/light.png" alt="">
+                    <h3>Goleador: Fulano com 7 gols</h3>
+                </div>
+            </div>
+
+            <h2 class="veterano">Veterano</h2>
+            <div class="campeoes">
+                <div>
+                    <img src="assets/agm.png" alt="">
+                    <h3>Campeão: Time tal</h3>
+                </div>
+                <div>
+                    <img src="assets/bilhar_grenal.png" alt="">
+                    <h3>Vice Campeão: Time tal</h3>
+                </div>
+                <div>
+                    <img src="assets/light.png" alt="">
+                    <h3>Goleador: Fulano com 7 gols</h3>
+                </div>
+            </div>
+
+            <h2 class="feminino">Feminino</h2>
+            <div class="campeoes">
+                <div>
+                    <img src="assets/agm.png" alt="">
+                    <h3>Campeão: Time tal</h3>
+                </div>
+                <div>
+                    <img src="assets/bilhar_grenal.png" alt="">
+                    <h3>Vice Campeão: Time tal</h3>
+                </div>
+                <div>
+                    <img src="assets/light.png" alt="">
+                    <h3>Goleador: Fulano com 7 gols</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Todos os direitos reservados. Gazeta Igrejinhense</p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuToggle = document.getElementById('menu-toggle');
+            const navLinks = document.getElementById('nav-links');
+
+            if (menuToggle && navLinks) {
+                menuToggle.addEventListener('click', () => {
+                    menuToggle.classList.toggle('active');
+                    navLinks.classList.toggle('active');
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
