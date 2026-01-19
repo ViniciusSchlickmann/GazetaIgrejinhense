@@ -134,7 +134,7 @@ nav {
 }
 
 /* ------------------------Histórico------------------------ */
-main h1 {
+.campeoes h1{
     width: 90%;
     margin: 40px auto;
     padding: 15px;
@@ -145,20 +145,20 @@ main h1 {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.ouro {
-    width: 80%;
-    margin-left: 10%;
+.campeoes_ouro{
+    width: 90%;
     margin: 40px auto;
     padding: 15px;
     border-radius: 10px;
     background-color: #af9200;
-    color: white;
     text-align: center;
+    color: var(--branco);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.prata {
-    width: 80%;
-    margin-left: 10%;
+.campeoes_prata {
+    width: 90%;
+    margin: 40px auto;
     margin: 40px auto;
     padding: 15px;
     border-radius: 10px;
@@ -167,9 +167,9 @@ main h1 {
     text-align: center;
 }
 
-.veterano {
-    width: 80%;
-    margin-left: 10%;
+.campeoes_veterano {
+    width: 90%;
+    margin: 40px auto;
     margin: 40px auto;
     padding: 15px;
     border-radius: 10px;
@@ -178,9 +178,9 @@ main h1 {
     text-align: center;
 }
 
-.feminino {
-    width: 80%;
-    margin-left: 10%;
+.campeoes_feminino {
+    width: 90%;
+    margin: 40px auto;
     margin: 40px auto;
     padding: 15px;
     border-radius: 10px;
@@ -189,17 +189,40 @@ main h1 {
     text-align: center;
 }
 
-.campeoes {
-    display: flex;
-    width: 80%;
-    justify-content: space-between;
-    margin-left: 10%;
-    text-align: center;
-    padding-bottom: 2%;
+table {
+    width: 90%;
+    margin: 10px auto 40px auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    background: var(--branco);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.campeoes img {
-    height: 200px;
+th,
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.titulo {
+    font-weight: 700;
+}
+
+th {
+    background: var(--cinza-claro);
+    color: var(--cinza-escuro);
+    font-weight: 400;
+}
+
+tr:nth-child(even) {
+    background: #fafafa;
+}
+
+tr:hover {
+    background-color: #ffe5e5;
+    transition: 0.3s ease;
 }
 
 /* ------------------------Footer------------------------ */
@@ -214,9 +237,6 @@ footer {
     letter-spacing: 0.5px;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
 }
-
-
-
 
 
 @media (max-width: 420px) {
