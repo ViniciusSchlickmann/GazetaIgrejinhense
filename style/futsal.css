@@ -216,6 +216,16 @@ th {
     font-weight: 400;
 }
 
+th img{
+    width: 50px;
+    padding-right: 12px;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+}
+
 tr:nth-child(even) {
     background: #fafafa;
 }
