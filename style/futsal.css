@@ -189,9 +189,16 @@ nav {
     text-align: center;
 }
 
+.informacao{
+    width: 90%;
+    margin-left: 5%;
+    font-size: 12px;
+    padding-bottom: 40px;
+}
+
 table {
     width: 90%;
-    margin: 10px auto 40px auto;
+    margin: 10px auto 15px auto;
     border-collapse: collapse;
     border-radius: 10px;
     overflow: hidden;
