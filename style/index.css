@@ -201,6 +201,7 @@ tr:hover {
 .resultados {
     width: 90%;
     margin: 40px auto;
+    padding-bottom: 64px;
 }
 
 .semana {
