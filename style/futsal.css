@@ -313,6 +313,10 @@ footer {
         height: 80px;
     }
 
+    .patrocinios h2 {
+    font-size: 14px;
+    }
+
     /* ------------------------Footer------------------------ */
     footer {
         font-size: 0.8rem;
