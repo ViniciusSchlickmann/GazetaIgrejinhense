@@ -389,6 +389,11 @@ footer {
         height: 80px;
     }
 
+    .patrocinios h2 {
+    font-weight: 600;
+    font-size: 18px;
+    }
+
     /* ------------------------Título Campeonato------------------------ */
     #nome_campeonato h1 {
         font-size: 1.2rem;
