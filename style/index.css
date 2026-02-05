@@ -63,6 +63,10 @@ nav {
     transform: scale(1.1);
 }
 
+#atual{
+    color: #f26767;
+}
+
 /* ------------------------Ícone Hambúrguer------------------------ */
 .menu-toggle {
     display: none;
@@ -107,8 +111,8 @@ nav {
 
 .track {
     display: flex;
-    gap: 80px;
-    animation: rolar 25s linear infinite;
+    gap: 15px;
+    animation: rolar 15s linear infinite;
 }
 
 .slide img {
