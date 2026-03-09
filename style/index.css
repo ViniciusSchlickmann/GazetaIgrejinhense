@@ -154,8 +154,9 @@ nav {
     letter-spacing: 1px;
 }
 
-.segundafase {
+.segundafase, .matamata {
     margin-left: 5%;
+    color: #8b0000;
 }
 
 /* ------------------------Tabelas------------------------ */
