@@ -160,6 +160,28 @@ nav {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+.prata{
+    width: 90%;
+    margin: 40px auto;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #9b9b9b;
+    text-align: center;
+    color: var(--branco);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.veterano{
+    width: 90%;
+    margin: 40px auto;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #730707;
+    text-align: center;
+    color: var(--branco);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
 #nome_campeonato h1 {
     font-size: 1.8rem;
     letter-spacing: 1px;
